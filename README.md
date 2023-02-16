@@ -1,8 +1,8 @@
  
 ### 'Takealot web app Project in progress'
-Working on takealot web app project to view the progress
-of the project run the application using the below command
-
+Working on takealot web app project.
+To view the progress of the project run the application
+using the below command
 ### `npm start`
 
 Runs the app in the development mode.\
