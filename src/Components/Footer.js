@@ -1,4 +1,5 @@
 import React from 'react'
+import  '../Footer.css'
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 export default function Footer() {
@@ -106,23 +107,70 @@ export default function Footer() {
                             </MDBCol>
 
                             <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
-                                <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+                                <h6 className='text-uppercase fw-bold mb-4'>Company</h6>
                                 <p>
-                                    <MDBIcon color='secondary' icon='home' className='me-2' />
-                                    New York, NY 10012, US
+                                    <a href='#!' className='text-reset'>
+                                        About Us
+                                    </a>
                                 </p>
                                 <p>
-                                    <MDBIcon color='secondary' icon='envelope' className='me-3' />
-                                    info@example.com
+                                    <a href='#!' className='text-reset'>
+                                        Careers
+                                    </a>
                                 </p>
                                 <p>
-                                    <MDBIcon color='secondary' icon='phone' className='me-3' /> + 01 234 567 88
+                                    <a href='#!' className='text-reset'>
+                                        Sell on Takealot
+                                    </a>
                                 </p>
                                 <p>
-                                    <MDBIcon color='secondary' icon='print' className='me-3' /> + 01 234 567 89
+                                    <a href='#!' className='text-reset'>
+                                        Deliver for Takealot
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href='#!' className='text-reset'>
+                                        Press & News
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href='#!' className='text-reset'>
+                                        Competitions
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href='#!' className='text-reset'>
+                                        Terms & Conditions
+                                    </a>
+                                </p>
+                            </MDBCol>
+                        </MDBRow >
+                        <MDBRow className='mt-0 secondrow'>
+                            <MDBCol>
+                                <p>
+                                    <a href='#!' class='linksonly'>Baby & Toddler</a>/
+                                    <a href='#!' class='linksonly'>Beauty</a>/
+                                    <a href='#!' class='linksonly'>Books</a>/
+                                    <a href='#!' class='linksonly'>Cameras</a>/
+                                    <a href='#!'class='linksonly'>Camping & Outdoors</a>/
+                                    <a href='#!'class='linksonly'>Cell Phones & Wearables</a>/
+                                    <a href='#!'class='linksonly'>Fashion</a>/
+                                    <a href='#!'class='linksonly'>Computers & Tablets</a>/
+                                    <a href='#!'class='linksonly'>Gaming</a>/
+                                    <a href='#!'class='linksonly'>Health</a>/
+                                    <a href='#!'class='linksonly'>Home & Kitchen</a>/
+                                    <a href='#!'class='linksonly'>Luggage & Travel</a>/
+                                    <a href='#!'class='linksonly'>Movies & series</a>/
+                                    <a href='#!'class='linksonly'>Music</a>/
+                                    <a href='#!'class='linksonly'>Statinary</a>/
+                                    <a href='#!'class='linksonly'>Tv and Auido</a>/
+                                    <a href='#!'class='linksonly'>Pets</a>/
+                                    <a href='#!'class='linksonly'>Sport</a>/
+                                    
                                 </p>
                             </MDBCol>
                         </MDBRow>
+
                     </MDBContainer>
                 </section>
 

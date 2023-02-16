@@ -95,12 +95,17 @@ export default function FirstPage() {
                     </div>
 
                 </div>
-            </div> 
+            </div>
             <div className='row container-fluid'>
                 <div className='col-md'>
-                    <Footer className=' mt-5'/>
+                    <Footer className=' mt-5' />
                 </div>
-                </div>   
+            </div>
+            <section className='row container bottom '>
+               <div className='col-md'>
+                
+               </div>
+            </section>
         </div>
 
     )
