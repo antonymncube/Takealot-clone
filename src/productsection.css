@@ -1,0 +1,27 @@
+.topsection1{
+  display:flex
+}
+
+.productheader{
+    align-items:center;
+}
+.morebtn{
+  margin-left: 680%;
+  width: 5rem;
+  border: 1px solid black; 
+  padding: 5px ; 
+  color:black;   
+}
+
+.morebtn:hover{
+  margin-left: 680%;
+  width: 5rem;
+  border: 1px solid black; 
+  padding: 5px ; 
+  color:white;  
+  background-color: #4d4d4f; 
+}
+
+.bottom-section{
+    display: flex;
+}

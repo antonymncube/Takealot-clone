@@ -1,0 +1,19 @@
+ .checked {
+     margin-right: 6rem;
+ }
+
+ .price {
+     margin-right: 5rem;
+ }
+
+ .productcontainer1 {
+     display: flex;
+ }
+ .description{
+    margin-right: 5rem;
+    font-size:small;
+    font-weight: 300;
+ }
+ .productcontainer2 {
+     display: flex;
+ }

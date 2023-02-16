@@ -1,0 +1,22 @@
+ 
+ .navbar-collapse1 a{
+  border-right: solid rgba(167, 167, 167, 0.712) 2px;
+  padding: 0px;
+  margin: 0px;
+ }
+ .navbar-nav1{
+    margin-left: 34rem;
+   
+ }
+
+ .navbar1{
+    height: 60px;
+   
+ }
+
+ .navbar-nav1 a:hover{
+    border-bottom: solid  rgb(116, 116, 236) 1px;
+    color: rgb(116, 116, 236) ;
+    
+    
+ }
