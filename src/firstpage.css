@@ -12,3 +12,13 @@
     border: 0ch;
     border: solid 1px white;
 }
+ .lastrow{
+    background-color: #0b79bf;
+    
+ }
+  .lastcol{
+    margin-left: 6rem;
+  } 
+  .bottonicons{
+    color: rgb(155, 181, 204);
+  }
