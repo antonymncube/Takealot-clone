@@ -2,6 +2,7 @@ import React from 'react'
 import '../Navigation2.css'
 import Drop from './Drop'
 import { Dropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 export default function Navigation2() {
@@ -27,11 +28,20 @@ export default function Navigation2() {
                                         <Dropdown.Item href="#/action-3">Gaming</Dropdown.Item>
                                         <Dropdown.Item href="#/action-3">Pets</Dropdown.Item>
                                         <Dropdown.Item href="#/action-3">Health</Dropdown.Item>
-                                        
+
                                     </Dropdown.Menu>
-                                </Dropdown> 
+                                </Dropdown>
                             </div>
                         </nav>
+                        <div className='' style={{ marginLeft: '0rem' }}>
+                            <Link className='btn navbtn p-0 ' style={{ borderRadius: '0px', border: 'solid #ededed 2px', width: '10rem', background: '#ededed', fontSize: '14px', borderRight: 'solid 1px black' }}  to="/Loadshedding">Load Shedding</Link>
+                            <a className='btn navbtn p-0 ' style={{ borderRadius: '0px', border: 'solid #ededed 2px', width: '10rem', background: '#ededed', fontSize: '14px', borderRight: 'solid 1px black' }}>Shop Valentine</a>
+                            <a className='btn navbtn p-0 ' style={{ borderRadius: '0px', border: 'solid #ededed 2px', width: '10rem', background: '#ededed', fontSize: '14px', borderRight: 'solid 1px black' }}>Sandals Flash</a>
+                            <a className='btn navbtn p-0 ' style={{ borderRadius: '0px', border: 'solid #ededed 2px', width: '10rem', background: '#ededed', fontSize: '14px', borderRight: 'solid 1px black' }}>Back to Varsity</a>
+                            <a className='btn navbtn p-0 ' style={{ borderRadius: '0px', border: 'solid #ededed 2px', width: '10rem', background: '#ededed', fontSize: '14px', borderRight: 'solid 1px black' }} >Cell Phones</a>
+                            <a className='btn navbtn p-0 ' style={{ borderRadius: '0px', border: 'solid #ededed 2px', width: '10rem', background: '#ededed', fontSize: '14px', borderRight: 'solid 1px black' }} >Kitchen</a>
+                               
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import slide1 from '../images/slide1.webp'
 import BrandCarousal from './BrandCarousal'
 import home50 from '../images/home50.png'
 import bluebanner from '../images/bluebanner.webp'
@@ -17,7 +16,7 @@ export default function Display() {
       <div className="row ">
         <div className="col-md-3">
           <div className="container">
-            FIRST
+             
           </div>
         </div>
         <div className="col-md-5">

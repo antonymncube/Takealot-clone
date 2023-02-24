@@ -3,5 +3,17 @@
 }
 
 .nav2{
-    background-color: #0b79bf;
+    background-color:#0b79bf;
+    height: 6rem;
+}
+
+.navbtn{
+   border: solid black 5px;
+   
+}
+.navbtnd{
+    width: 34rem;
+    font-size: larger;
+    background-color: blueviolet;
+     
 }

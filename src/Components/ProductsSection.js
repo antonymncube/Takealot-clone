@@ -13,7 +13,7 @@ export default function ProductsSection(props) {
                     <div className='col-md-12  '>
                         <div className='top-section topsection1'>
                             <div>
-                                <h3 className='productheader'>{props.details.heading}</h3>
+                            <h3 className='productheader mx-2'>{props.details.heading}</h3>
                             </div>
 
                             <div>
